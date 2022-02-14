@@ -4,16 +4,12 @@ const router = express.Router();
 
 
 router.get('/', (req, res, next) => {
-
-
     res.status(200).send({
         mensagem: 'Ursula will rule the world'
     })
 })
 
 router.post('/', (req, res, next) => {
-
-
     const score = {
         fatorDeRisco: req.body.fator,
         doencasAgrupadas: req.body.doencas

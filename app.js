@@ -27,6 +27,7 @@ app.use((req, res, next) => {
 app.use('/score', rotaScore);
 
 
+
 app.use((error, req, res, next) => {
     res.status(error.status || 500);
     return res.send({
