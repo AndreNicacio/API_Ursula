@@ -1,0 +1,20 @@
+{
+  "name": "api_ursula",
+  "version": "1.0.0",
+  "description": "API RESPONSAVEL POR CONTROLAR/AGRUPAR/DEVOLVER OS FATORES JUNTO A SUAS DOENÇAS RELACIONADAS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Andre Nicacio",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
